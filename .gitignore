@@ -1,0 +1,42 @@
+# Dependencias y módulos de Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Archivos del entorno
+.env
+.env.local
+.env.*.local
+
+# Cachés y configuraciones del editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Archivos de compilación y cachés
+*.log
+*.out
+*.lock
+
+# Archivos de despliegue y compilación
+dist/
+build/
+public/
+
+# Cachés del navegador y archivos temporales
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de pruebas
+coverage/
+*.spec.js
+*.test.js
+
+# Archivos de configuración del sistema
+*.bak
+*.tmp
